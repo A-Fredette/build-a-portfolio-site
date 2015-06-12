@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*This is a catch all for images and related content to make sure they don't extend beyond containers*/
+img, embed, object {
+    max-width: 100%;
+}
+
+p{
+    color: #BCBBBB;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 5px;
+}
+
+h3{
+    color: #747704;
+}
+
+h4{
+    color: black;
+    font-size: 21px;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+}
+
+h5{
+    font-size: 18px;
+    color: black;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.social_media_list {
+    float: right;
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+.logo-margin{
+    margin-top: 5px;
+}
+
+.top-border{
+    border-bottom: 2px solid #777;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#main{
+    background-color: white;
+}
+
+.main_image {
+    width: 78%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+#highlights {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#featured{
+    border-top: 2px solid #777;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+#tag_line{
+    float: right;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #777;
+}
+
+#logo{
+    display: none;
+}
+
+
+#featured-1, #featured-2{
+    background-color: white;
+
+}
+
+#featured-1{
+    padding-bottom: 20px;
+}
+
+#link:hover{
+    color:red;
+}
+
+.email{
+    display: inline;
+}
+
+.email:hover{
+    color: red;
+    font-style: bold;
+}
+
+.footer{
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
