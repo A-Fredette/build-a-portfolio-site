@@ -5,105 +5,111 @@
 <meta charset="utf-8">
 <!---Sets the viewport ratio 1:1 for mobile browsing-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Andrew's Portfolio</title>
+<title>Andrew's Portfolio</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/portfolio.css">
 <link rel="stylesheet" type="text/css" media= "screen and (max-width: 360px)" href="css/portfolio_mobile.css">
 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
 <script type ="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type ="text/javascript" src="js/bootstrap.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<main>
-
-<div class = "container">
+<main = "container">
 	 <!--Header-->
-	<div class = "row top-border">
-		<div class = "col-md-6 logo-margin">
-      <img class = "img-responsive" id="logo" src="images/udacity_logo.svg" alt= "Udacity Logo"></div>
-		    <div class = "col-md-6 text-right">
-			   <h1> ANDREW FREDETTE</h1>
-			     <nav class = "social_media_list">
-             <p id="tag_line">Front End Developer</p>
-             <a href= "https://github.com/A-Fredette"><i class="fa fa-github-square fa-2x"></i></a>
-             <a href= "https://www.linkedin.com/pub/andrew-fredette/50/416/80"><i class="fa fa-linkedin-square fa-2x"></i></a>
-             <a href= "https://www.linkedin.com/pub/andrew-fredette/50/416/80"><i class="fa fa-twitter-square fa-2x"></i></a>
-             <a href= "https://www.linkedin.com/pub/andrew-fredette/50/416/80"><i class="fa fa-facebook-square fa-2x"></i></a>
-           </nav>
-		</div>
-	</div>
-
+	<header class = "row top-border">
+		<section class = "col-md-6 logo-margin">
+      <img class = "img-responsive" id="logo" src="images/udacity_logo.svg" alt= "Udacity Logo">
+    </section>
+	  <section class = "col-md-6 text-right">
+			<h1> ANDREW FREDETTE</h1>
+			  <nav class = "social_media_list">
+          <p id="tag_line">Front End Developer</p>
+          <a href= "https://github.com/A-Fredette"><i class="fa fa-github-square fa-2x"></i></a>
+          <a href= "https://www.linkedin.com/pub/andrew-fredette/50/416/80"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href= "https://www.linkedin.com/pub/andrew-fredette/50/416/80"><i class="fa fa-twitter-square fa-2x"></i></a>
+          <a href= "https://www.linkedin.com/pub/andrew-fredette/50/416/80"><i class="fa fa-facebook-square fa-2x"></i></a>
+        </nav>
+	  </section>
+	</header>
 	 <!--Center Image + Highlights-->
-	 <div class = "row" id="main">
-	   <div class = "col-md-6"> <img class = "img-responsive main_image" src="images/responsive_design.svg" alt="Illustration of responsive design on multiple devices"></div>
-     <div class = "col-md-6" id="highlights"> 
-        <h2>Highlights</h2>
-            <ul>
-              <li>Udacity Front End Developer Nanodegree Graduate: Novermber 2015</li>
-              <li>CSS, HTML, Javascript, Wordpress, Squarespace, Commonspot</li>
-              <li>Twitter Bootstrap Framework, GitHub, jQuery, NodeJS</li>
-              <li>Experience serving bloggers, artists and professionals</li> 
-              <li>Junior Web Developer for <a href = "http://www.mzdynamic.com">MZDynamic</a></li>
-              <li>Responsive design and images</li> 
-              <li>Graphic design and branding</li>
-              <li>Brand book development</li>
-            </ul>
-     </div>
-	 </div>
-
+  <article class = "row" id="main">
+	  <figure class = "col-md-6"> <img class = "img-responsive main_image" src="images/responsive_design.svg" alt="Illustration of responsive design on multiple devices">
+    </figure>
+    <summary class = "col-md-6" id="highlights">
+      <h2>Highlights</h2>
+        <ul>
+          <li>Udacity Front End Developer Nanodegree Graduate: Novermber 2015</li>
+          <li>CSS, HTML, Javascript, Wordpress, Squarespace, Commonspot</li>
+          <li>Twitter Bootstrap Framework, GitHub, jQuery, NodeJS</li>
+          <li>Experience serving bloggers, artists and professionals</li>
+          <li>Junior Web Developer for <a href = "http://www.mzdynamic.com">MZDynamic</a></li>
+          <li>Responsive design and images</li>
+          <li>Graphic design and branding</li>
+          <li>Brand book development</li>
+        </ul>
+    </summary>
+  </article>
 	 <!--"Featured Work" Row-->
-	 <div class = "row" id="featured">
-	 	 <div class = "col-md-12">
+	 <section class = "row" id="featured">
+	 	 <header class = "col-md-12">
 	 	   <h2>Featured Projects</h2>
-     </div>
-	 </div>
-
-	 <!--Featured Images + Links-->
-	 <div class = "row text-center" id="featured-1">
-	     <div class = "col-md-3">
-            <img class = "img-responsive feature_img" src="images_grunt/resume-thumbnail.jpg" alt = "Resume Image" data-toggle= "modal" data-target= "#project1">
-              <a id= "link" href = "www.revolutionme.net/resume"><h4>RESUME</h4></a>
-	 	   </div>
-	 	   <div class = "col-md-3"> 
-          <img class = "img-responsive feature_img" src="images_grunt/R-ME-thumbnail.jpg" alt = "Revolution:ME Blog Image" data-toggle= "modal" data-target= "#project2">
-            <a id= "link" href = "www.revolutionme.net"><h4>REVOLUTION:ME</h4></a>
-	 	  </div>
-	 	  <div class = "col-md-3">
-        <img class = "img-responsive feature_img" src="images_grunt/netherway-thumbnail.jpg" alt = "Josh Fredette Writer Image"> 
-	 		    <a id= "link" class= "josh" href = "www.joshfredette.net"><h4>FICTION BY JOSH</h4></a>
-	 	  </div>
-      <div class = "col-md-3"><img class = "img-responsive" src="images_grunt/Sunflower-thumbnail.png" alt = "Frogger Image"> 
-          <a id= "link" class= "josh" href = "www.joshfredette.net"><h4>FROGGER</h4></a>
-      </div>
-	 </div>
-
-   <div class = "row text-center" id="featured-2">
-       <div class = "col-md-3">
-          <img class = "img-responsive feature_img" src="images_grunt/appify-thumbnail.jpg" alt = "Kathleen Fredette Teacher Image"> 
-            <a id= "link" class="resume" href = "www.kathleenfredette.com"><h4>KATHLEEN FREDETTE</h4></a>
-       </div>
-       <div class = "col-md-3">
-          <img class = "img-responsive feature_img" src="images_grunt/45-Farms-thumbnail.jpg" alt = "45 Farms Trees and Mountains Logo"><a id= "link" class= "revme" href = "www.45farms.net"><h4>45 FARMS</h4></a>
-      </div>
-      <div class = "col-md-3">
-        <img class = "img-responsive feature_img" src="images_grunt/app-thumbnail.png" alt = "InsiCreative Text Logo"> 
-          <a id= "link" class= "josh" href = "www.joshfredette.net"><h4>INSICREATIVE</h4></a>
-      </div>
-        <div class = "col-md-3"><img class = "img-responsive feature_img" src="images_grunt/Sunflower-thumbnail.png" alt = "Sunflower Image"><a id= "link" class= "josh" href = "www.joshfredette.net"><h4>PLACEHOLDER</h4></a>
-      </div>
-   </div>
-
-    <!-- Footer -->
-  <div class = "row">
+     </header>
+	</section>
+	 <!--Featured Images Row 1 + Links-->
+	<section class = "row text-center" id="featured-1">
+	 <figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/resume-thumbnail.jpg" alt = "Resume Image" data-toggle= "modal" data-target= "#project1">
+      <a id= "link" href = "www.revolutionme.net/resume">
+      <h4>RESUME</h4></a>
+	 	</figure>
+	 	<figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/R-ME-thumbnail.jpg" alt = "Revolution:ME Blog Image" data-toggle= "modal" data-target= "#project2">
+      <a id= "link" href = "www.revolutionme.net">
+      <h4>REVOLUTION:ME</h4></a>
+	 	</figure>
+	 	<figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/netherway-thumbnail.jpg" alt = "Josh Fredette Writer Image" data-toggle= "modal" data-target= "#project3">
+	 		<a id= "link" class= "josh" href = "www.joshfredette.net">
+      <h4>FICTION BY JOSH</h4></a>
+	 	</figure>
+    <figure class = "col-md-3">
+      <img class = "img-responsive" src="images_grunt/Sunflower-thumbnail.png" alt = "Frogger Image" data-toggle= "modal" data-target= "#project4">
+      <a id= "link" class= "josh" href = "www.joshfredette.net">
+      <h4>FROGGER</h4></a>
+    </figure>
+   <!--Featured Images Row 1 + Links-->
+	</section>
+  <section class = "row text-center" id="featured-2">
+    <figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/appify-thumbnail.jpg" alt = "Kathleen Fredette Teacher Image" data-toggle= "modal" data-target= "#project5">
+      <a id= "link" class="resume" href = "www.kathleenfredette.com">
+      <h4>KATHLEEN FREDETTE</h4></a>
+    </figure>
+    <figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/45-Farms-thumbnail.jpg" alt = "45 Farms Trees and Mountains Logo" data-toggle= "modal" data-target= "#project6">
+      <a id= "link" class= "revme" href = "www.45farms.net">
+      <h4>45 FARMS</h4></a>
+    </figure>
+     <figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/app-thumbnail.png" alt = "InsiCreative Text Logo" data-toggle= "modal" data-target= "#project7">
+      <a id= "link" class= "josh" href = "www.joshfredette.net">
+      <h4>INSICREATIVE</h4></a>
+     </figure>
+    <figure class = "col-md-3">
+      <img class = "img-responsive feature_img" src="images_grunt/Sunflower-thumbnail.png" alt = "Sunflower Image" data-toggle= "modal" data-target= "#project8">
+      <a id= "link" class= "josh" href = "www.joshfredette.net">
+      <h4>PLACEHOLDER</h4></a>
+    </figure>
+  </section>
+  <!-- Footer -->
+  <footer class = "row">
     <div class = "col-md-12 footer">
-        <a href = "andrew.fredett@gmail.com"><i class="fa fa-envelope-o fa-2x"></i><h5>CONTACT</h5></a>
+      <a href = "andrew.fredett@gmail.com"><i class="fa fa-envelope-o fa-2x"></i>
+      <h5>CONTACT</h5></a>
     </div>
-  </div>
-</div>
+  </footer>
 </main>
-
 <!-- Resume Modal -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -120,9 +126,9 @@
       </div>
     </div>
   </div>
-
+</div>
 <!-- RevME Modal -->
-  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -130,14 +136,115 @@
       </div>
       <div class="modal-body">
         <img class="img-responsive" src="http://placehold.it/570x250">
-        My personal blog, developed with HTML, CSS, PHP, Javascript and Wordpress.
+        <p>My personal blog, developed with HTML, CSS, PHP, Javascript and Wordpress.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-
-
+</div>
+<!-- Fiction by Josh Modal -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Fiction by Josh Preview</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/570x250">
+        <p>Blog made via Squarespace featuring short stories.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Frogger Modal -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Frogger Preview</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/570x250">
+        <p>A Javascript-based project I made while completing Undacity's Front-End Web Developer Nanodegree.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Kathleen Fredette's Blog Modal -->
+<div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">KathleenFredette.com Preview</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/570x250">
+        <p>A Wordpress based blog.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- 45 Farms Modal -->
+<div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">45 Farms Preview</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/570x250">
+        <p>Squarespace based blog for a Cannabis startup.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- InsiCreative Modal -->
+<div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">InsiCreative</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/570x250">
+        <p>Website for a Web Development Company that I helped develop during my internship.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Placeholder Modal -->
+<div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Placeholder Preview</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://placehold.it/570x250">
+        <p>A project I made while completing Undacity's Front-End Web Developer Nanodegree</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
